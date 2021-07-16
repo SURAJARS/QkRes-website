@@ -184,6 +184,17 @@ padding: 8px;
   background-image: url('images/.png');
 }
 
+.backgrounds .background {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  background-attachment: fixed;
+  background-image: url('images/.png');
+}
+
 .overlay:after {
   content: '';
   position: absolute;
